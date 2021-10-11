@@ -45,7 +45,7 @@ class ViewRecipe : AppCompatActivity() {
     }
 
     private fun updateView(list: List<RecipeDetailsItem>) {
-        mainRV.adapter = RecipeRVAdapter(list,this)
+        mainRV.adapter = RecipeRVAdapter(list)
         mainRV.layoutManager = LinearLayoutManager(this)
     }
 }
